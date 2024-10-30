@@ -60,6 +60,13 @@ header .logo {
     background-color: #101010;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.navbar::-webkit-scrollbar {
+    display: none;
 }
 
 .navbar a {
@@ -68,6 +75,7 @@ header .logo {
     padding: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .navbar a, .navbar a:hover, .navbar a:visited, .navbar a:active {
