@@ -47,9 +47,14 @@ header .logo {
     min-width: 100px;
     min-height: 100px;
     border-radius: 50%;
-    background-color: #555;
+    border: 3px solid #42a8fc;
     flex-shrink: 0;
     margin: 0 5px;
+    transition: ease 1s;
+}
+
+.profile:hover {
+    border: 3px solid #a842fc;
 }
 
 .navbar {
@@ -184,6 +189,13 @@ header .logo {
     background: #357ABD;
 }
 
+.small-profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .footer {
     position: fixed;
     width: 100%;
@@ -192,6 +204,10 @@ header .logo {
     justify-content: space-around;
     background-color: #111;
     padding: 10px 0;
+}
+
+.footer div a i.active {
+    color: #4184ff;
 }
 
 .footer .icon {

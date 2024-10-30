@@ -52,7 +52,7 @@ body {
     height: auto;
     border-radius: 50%;
     border: 2px solid #f5f5f5;
-    margin-top: -150px;
+    margin-top: -100px;
 }
 
 h1 {
@@ -103,9 +103,7 @@ h1 {
 }
 
 .gallery img:hover {
-    border: #f5f5f5 solid 2px;
-    width: 100% - 4px;
-    height: 246px;
+    transform: scale(1.02);
 }
 
 .footer {
@@ -116,6 +114,10 @@ h1 {
     justify-content: space-around;
     background-color: #111;
     padding: 10px 0;
+}
+
+.footer div a i.active {
+    color: #4184ff;
 }
 
 .footer .icon {

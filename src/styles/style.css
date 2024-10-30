@@ -47,9 +47,14 @@ header .logo {
     min-width: 100px;
     min-height: 100px;
     border-radius: 50%;
-    background-color: #555;
+    border: 3px solid #42a8fc;
     flex-shrink: 0;
     margin: 0 5px;
+    transition: ease 1s;
+}
+
+.profile:hover {
+    border: 3px solid #a842fc;
 }
 
 .navbar {
@@ -84,7 +89,7 @@ header .logo {
 }
 
 .navbar a.active {
-    color: rgb(65, 132, 255);
+    color: #4184ff;
 }
 
 .nav-separator {
@@ -125,6 +130,7 @@ header .logo {
 .post-image {
     width: 100%;
     margin: 15px 0;
+    border-radius: 10px;
 }
 
 .post-content p {
@@ -168,6 +174,14 @@ header .logo {
     font-size: 12px;
     color: #666;
 }
+
+.small-profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .space {
     margin-bottom: 100px;
 }
@@ -180,6 +194,10 @@ header .logo {
     justify-content: space-around;
     background-color: #111;
     padding: 10px 0;
+}
+
+.footer div a i.active {
+    color: #4184ff;
 }
 
 .footer .icon {
