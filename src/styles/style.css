@@ -29,11 +29,6 @@ header .logo {
     text-align: center;
 }
 
-.icons a img {
-    width: 24px;
-    margin: 0 10px;
-}
-
 .profiles {
     display: flex;
     overflow-x: auto;
@@ -41,6 +36,7 @@ header .logo {
     gap: 10px;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    border-bottom: 1px solid #333;
 }
 
 .profiles::-webkit-scrollbar {
@@ -48,8 +44,8 @@ header .logo {
 }
 
 .profile {
-    min-width: 75px;
-    min-height: 75px;
+    min-width: 100px;
+    min-height: 100px;
     border-radius: 50%;
     background-color: #555;
     flex-shrink: 0;
@@ -67,6 +63,7 @@ header .logo {
 }
 
 .navbar a {
+    font-size: 1.1rem;
     color: #f5f5f5;
     padding: 0 15px;
     text-decoration: none;
@@ -152,7 +149,7 @@ header .logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
 }
 
 .stat {
