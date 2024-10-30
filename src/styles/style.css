@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Spartan';
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #101010;
+    color: #f5f5f5;
+}
+
+header {
+    position: absolute;
+}
+
+header .logo {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.icons a img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+/* Profile Pictures */
+.profiles {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+    margin: 0 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #111;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    color: #00f;
+}
+
+/* Post */
+.post {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info {
+    text-align: left;
+}
+
+.username {
+    font-weight: bold;
+    color: #cce;
+}
+
+.category {
+    color: #888;
+}
+
+.post-image {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.post-content p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.post-comments {
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+}
+
+.comment-user {
+    font-size: 16px;
+}
+
+.comment {
+    margin-left: 25px;
+}
+
+.comment-profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-stats {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.stat {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 10px 0;
+}
+
+.footer .icon {
+    padding: 10px;
+    font-size: 200%;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.icon a, .icon a:hover, .icon a:visited, .icon a:active {
+    text-decoration: none;
+    color: #f5f5f5;
+}
