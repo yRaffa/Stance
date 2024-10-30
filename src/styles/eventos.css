@@ -24,10 +24,35 @@ header .logo {
 .container {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
-    max-width: 400px;
     text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    margin-top: 10px;
+    background-color: #101010;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.navbar a {
+    color: #f5f5f5;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a, .navbar a:hover, .navbar a:visited, .navbar a:active {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.navbar a.active {
+    color: rgb(65, 132, 255);
 }
 
 .content {
@@ -36,10 +61,11 @@ header .logo {
 }
 
 .status {
+    padding: 0 25px;
     font-weight: bold;
     font-size: 1.2em;
     color: #f5f5f5;
-    margin-bottom: 15px;
+    margin: 25px 0;
 }
 
 .event {
@@ -60,6 +86,7 @@ header .logo {
 }
 
 .logos {
+    margin: 0 10px;
     position: absolute;
     top: 25px;
     display: flex;
@@ -70,8 +97,7 @@ header .logo {
 }
 
 .logo-lb {
-    width: 100px;
-    margin-right: 10px;
+    width: 35%;
 }
 
 .separator {
@@ -79,7 +105,7 @@ header .logo {
 }
 
 .logo-stance {
-    width: 150px;
+    width: 50%;
 }
 
 .event-info {

@@ -34,42 +34,54 @@ header .logo {
     margin: 0 10px;
 }
 
-/* Profile Pictures */
 .profiles {
     display: flex;
-    justify-content: center;
-    padding: 10px;
+    overflow-x: auto;
+    padding: 15px;
+    gap: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.profiles::-webkit-scrollbar {
+    display: none;
 }
 
 .profile {
-    width: 50px;
-    height: 50px;
+    min-width: 75px;
+    min-height: 75px;
     border-radius: 50%;
     background-color: #555;
+    flex-shrink: 0;
     margin: 0 5px;
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    background-color: #111;
+    justify-content: space-around;
+    padding: 15px 0;
+    margin-top: 10px;
+    background-color: #101010;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
 }
 
 .navbar a {
-    color: #fff;
+    color: #f5f5f5;
     padding: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.navbar a.active {
-    color: #00f;
+.navbar a, .navbar a:hover, .navbar a:visited, .navbar a:active {
+    text-decoration: none;
+    color: #f5f5f5;
 }
 
-/* Post */
+.navbar a.active {
+    color: rgb(65, 132, 255);
+}
+
 .post {
     padding: 20px;
     border-bottom: 1px solid #333;
@@ -146,6 +158,9 @@ header .logo {
 .stat {
     font-size: 12px;
     color: #666;
+}
+.space {
+    margin-bottom: 100px;
 }
 
 .footer {
