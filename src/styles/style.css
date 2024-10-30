@@ -55,7 +55,7 @@ header .logo {
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 15px 0;
+    padding: 15px 10px;
     margin-top: 10px;
     background-color: #101010;
     border-top: 1px solid #333;
