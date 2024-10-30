@@ -147,6 +147,7 @@ header .logo {
     width: 100%;
     padding: 10px;
     border-radius: 8px;
+    margin-bottom: 100px
 }
 
 .event-info p {
