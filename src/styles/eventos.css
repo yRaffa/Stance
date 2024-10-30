@@ -87,6 +87,10 @@ header .logo {
     color: rgb(65, 132, 255);
 }
 
+.nav-separator {
+    margin: 0 6%;
+}
+
 .content {
     align-items: center;
     padding: 20px;
